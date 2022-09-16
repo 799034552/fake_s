@@ -15,18 +15,22 @@ class LoginPage extends StatefulWidget {
   _LoginPageState createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
-  TextEditingController _tC = new TextEditingController();
+class _LoginPageState extends State<LoginPage> with WidgetsBindingObserver{
+  TextEditingController _tC = new TextEditingController(text: "166");
 
   @override
   void initState() {
     super.initState();
     initEdit();
+    WidgetsBinding.instance.addPostFrameCallback((mag) {
+       print("注册页面渲染完毕");
+       login(_tC.text, context);
+    });
   }
 
   initEdit() async {
     final user = await SharedUtil.instance.getString(Keys.account);
-    _tC.text = user ?? '';
+    _tC.text = "166";//user ?? '';
   }
 
   Widget bottomItem(item) {
@@ -118,6 +122,7 @@ class _LoginPageState extends State<LoginPage> {
                 decoration: InputDecoration(
                     hintText: S.of(context).phoneNumberHint,
                     border: InputBorder.none),
+                
                 onChanged: (text) {
                   setState(() {});
                 },

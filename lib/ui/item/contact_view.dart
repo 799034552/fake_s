@@ -78,10 +78,10 @@ class ContactView extends StatelessWidget {
               new HorizontalLine(),
               new Container(
                 padding: EdgeInsets.symmetric(vertical: 10.0),
-                child: new Text(
-                  '${contacts.length}位联系人',
-                  style: TextStyle(color: mainTextColor, fontSize: 16),
-                ),
+                // child: new Text(
+                //   '${contacts.length}位联系人',
+                //   style: TextStyle(color: mainTextColor, fontSize: 16),
+                // ),
               )
             ]);
           }

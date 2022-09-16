@@ -15,98 +15,99 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   #IOS风格材料图标
-  cupertino_icons: ^0.1.2
+  cupertino_icons: 0.1.2
   #即时通讯【腾讯云】
-#  tencent_im_sdk_plugin: ^3.6.9
+#  tencent_im_sdk_plugin: 3.6.9
   #持久化存储
   #  shared_preferences: 0.5.2+2 #[Flutter2及之前]用这个
-  shared_preferences: ^2.0.8
+  shared_preferences: 2.0.8
   #状态管理
   #  provider: 4.3.1 #1.22.5版本Flutter用这个
-  provider: ^6.0.1 #Flutter2.5用这个
-  #  provider: ^5.0.0 #Flutter2用这个
+  provider: 6.0.1 #Flutter2.5用这个
+  #  provider: 5.0.0 #Flutter2用这个
   #  cached_network_image: 1.1.1 # 1.9版本flutter
   #  cached_network_image: 2.0.0 #1.22.5版本Flutter用这个
-  cached_network_image: ^3.0.0 #Flutter2用这个
+  cached_network_image: 3.0.0 #Flutter2用这个
   #toast提示框
   toast: 0.1.5
   #web显示
 #  webview_flutter: 0.3.22+1 #flutter2或者之前的使用这个
-  webview_flutter: ^3.0.1 #Flutter2.10用这个,,其他可注释
+  webview_flutter: 3.0.1 #Flutter2.10用这个,,其他可注释
+  webview_flutter_plus: 0.3.0+2
   #选取图库
 #  image_picker: 0.6.1+2 #flutter2或者之前的使用这个
-  image_picker: ^0.8.5+3 #Flutter2.10用这个,,其他可注释
+  image_picker: 0.8.5+3 #Flutter2.10用这个,,其他可注释
   #文本扩展显示
   #  extended_text: 1.0.1  #1.17版本Flutter用这个
   #  extended_text: 4.0.0 #1.20版本Flutter用这个
   #  extended_text: 4.0.1 #1.22.5版本Flutter用这个
-  #  extended_text: ^6.0.5 #Flutter2用这个,,其他可注释
-  #  extended_text: ^7.0.0 #flutter2.5用这个,,其他可注释
-  extended_text: ^9.0.0 #flutter2.10.4用这个,,其他可注释
+  #  extended_text: 6.0.5 #Flutter2用这个,,其他可注释
+  #  extended_text: 7.0.0 #flutter2.5用这个,,其他可注释
+  extended_text: 9.0.0 #flutter2.10.4用这个,,其他可注释
   #文字表情混入
   #  extended_text_field: 1.0.1  #1.17版本Flutter用这个
   #  extended_text_field: 4.0.0  #1.20版本Flutter用这个
   #  extended_text_field: 5.0.1 #1.22.5版本Flutter用这个
-  #  extended_text_field: ^7.0.1 #Flutter2用这个,,其他可注释
-  #  extended_text_field: ^8.0.0 #Flutter2.5用这个,,其他可注释
-  extended_text_field: ^10.0.0 #Flutter2.10用这个,,其他可注释
+  #  extended_text_field: 7.0.1 #Flutter2用这个,,其他可注释
+  #  extended_text_field: 8.0.0 #Flutter2.5用这个,,其他可注释
+  extended_text_field: 10.0.0 #Flutter2.10用这个,,其他可注释
   #  extended_text_library: 4.0.2 #1.22.5版本Flutter用这个,,其他可注释
-  #  extended_text_library: ^6.0.0 #Flutter2用这个,,其他可注释
-  #  extended_text_library: ^7.0.0 #Flutter2.5用这个,,其他可注释
-  extended_text_library: ^9.0.0 #Flutter2.10用这个,,其他可注释
+  #  extended_text_library: 6.0.0 #Flutter2用这个,,其他可注释
+  #  extended_text_library: 7.0.0 #Flutter2.5用这个,,其他可注释
+  extended_text_library: 9.0.0 #Flutter2.10用这个,,其他可注释
   #打开系统浏览器
 #  url_launcher: 5.2.7
-  url_launcher: ^6.0.20
+  url_launcher: 6.0.20
   #网络连接
 #  connectivity: 0.4.6 #Flutter2.5用这个,,其他可注释
-  connectivity_plus: ^2.2.1 #Flutter2.10用这个,,其他可注释
+  connectivity_plus: 2.2.1 #Flutter2.10用这个,,其他可注释
   #图片显示
 #  photo_view: 0.4.2 #Flutter2.5用这个,,其他可注释
-  photo_view: ^0.14.0 #Flutter2.10用这个,,其他可注释
+  photo_view: 0.14.0 #Flutter2.10用这个,,其他可注释
   #  dio: 2.2.2  #低于Flutter-1.17使用此版本
   #  dio: 3.0.9  #1.22.5版本Flutter用这个
-  dio: ^4.0.0 #Flutter2用这个
+  dio: 4.0.0 #Flutter2用这个
   #打开文件
 #  open_file: 2.0.3  #flutter2或者之前的使用这个
-  open_file: ^3.2.1 #flutter 2.10使用这个
+  open_file: 3.2.1 #flutter 2.10使用这个
   #获取包信息
 #  package_info: 0.4.0+2 #flutter2或者之前的使用这个
-  package_info_plus: ^1.4.0 #flutter 2.10使用这个
+  package_info_plus: 1.4.0 #flutter 2.10使用这个
   #音频处理
 #  flutter_sound: 1.7.0 # flutter 2.10之前的用这个
-#  flutter_sound: ^9.1.7 # flutter 2.10用这个
+#  flutter_sound: 9.1.7 # flutter 2.10用这个
   #权限处理
 #  permission_handler: 3.1.0  # flutter 2.10之前的用这个
-  permission_handler: ^9.2.0 # flutter 2.10用这个
+  permission_handler: 9.2.0 # flutter 2.10用这个
   #音频处理
   #  audioplayers: 0.13.3 #1.22.5版本Flutter用这个
-  #  audioplayers: ^0.19.0 #Flutter2用这个
-#  audioplayers: ^0.20.1 #flutter 2.10用这个
+  #  audioplayers: 0.19.0 #Flutter2用这个
+#  audioplayers: 0.20.1 #flutter 2.10用这个
   #调用相机
 #  camera: # 0.5.7+1
 #    path: plugin/camera
   #视频播放
   #  video_player: 0.10.11+2 #1.22.5版本Flutter用这个
-#  video_player: ^2.1.1 #Flutter2用这个
-#  video_player: ^2.3.0 #flutter 2.10用这个
+#  video_player: 2.1.1 #Flutter2用这个
+#  video_player: 2.3.0 #flutter 2.10用这个
   #图片压缩
 #  flutter_image_compress: 0.6.8 # flutter 2.10之前的用这个
-#  flutter_image_compress: ^1.1.0 # flutter 2.10用这个
+#  flutter_image_compress: 1.1.0 # flutter 2.10用这个
   #拼音
-#  lpinyin: ^1.0.7 # flutter 2.10之前的用这个
-  lpinyin: ^2.0.3 # flutter 2.10用这个
+#  lpinyin: 1.0.7 # flutter 2.10之前的用这个
+  lpinyin: 2.0.3 # flutter 2.10用这个
   #特殊列表滑动
-#  azlistview: ^0.1.0 # flutter 2.10之前的用这个
-  azlistview: ^2.0.0 # flutter 2.10用这个
+#  azlistview: 0.1.0 # flutter 2.10之前的用这个
+  azlistview: 2.0.0 # flutter 2.10用这个
   #微信图库
-  #  wechat_assets_picker: ^4.2.1 #1.22.5版本Flutter用这个
-  #  wechat_assets_picker: ^5.4.0 #Flutter2用这个
-#  wechat_assets_picker: ^6.2.3 #flutter2.5用这个
-  wechat_assets_picker: ^7.0.5 # flutter 2.10用这个
+  #  wechat_assets_picker: 4.2.1 #1.22.5版本Flutter用这个
+  #  wechat_assets_picker: 5.4.0 #Flutter2用这个
+#  wechat_assets_picker: 6.2.3 #flutter2.5用这个
+  wechat_assets_picker: 7.0.5 # flutter 2.10用这个
   #扩展图片
   extended_image: 6.0.2+1 # flutter 2.10 用这个
   #平台
-  platform: ^3.1.0 # flutter 2.10 用这个
+  platform: 3.1.0 # flutter 2.10 用这个
   #状态管理
   get: 4.6.1
 
@@ -219,3 +220,81 @@ flutter:
 
     - assets/data/contacts.json
     - assets/data/friends.json
+    - assets/images/avatar/avatar (1).jpg
+    - assets/images/avatar/avatar (2).jpg
+    - assets/images/avatar/avatar (3).jpg
+    - assets/images/avatar/avatar (4).jpg
+    - assets/images/avatar/avatar (5).jpg
+    - assets/images/avatar/avatar (6).jpg
+    - assets/images/avatar/avatar (7).jpg
+    - assets/images/avatar/avatar (8).jpg
+    - assets/images/avatar/avatar (9).jpg
+    - assets/images/avatar/avatar (10).jpg
+    - assets/images/avatar/avatar (11).jpg
+    - assets/images/avatar/avatar (12).jpg
+    - assets/images/avatar/avatar (13).jpg
+    - assets/images/avatar/avatar (14).jpg
+    - assets/images/avatar/avatar (15).jpg
+    - assets/images/avatar/avatar (16).jpg
+    - assets/images/avatar/avatar (17).jpg
+    - assets/images/avatar/avatar (18).jpg
+    - assets/images/avatar/avatar (19).jpg
+    - assets/images/avatar/avatar (20).jpg
+    - assets/images/avatar/avatar (21).jpg
+    - assets/images/avatar/avatar (22).jpg
+    - assets/images/avatar/avatar (23).jpg
+    - assets/images/avatar/avatar (24).jpg
+    - assets/images/avatar/avatar (25).jpg
+    - assets/images/avatar/avatar (26).jpg
+    - assets/images/avatar/avatar (27).jpg
+    - assets/images/avatar/avatar (28).jpg
+    - assets/images/avatar/avatar (29).jpg
+    - assets/images/avatar/avatar (30).jpg
+    - assets/images/avatar/avatar (31).jpg
+    - assets/images/avatar/avatar (32).jpg
+    - assets/images/avatar/avatar (33).jpg
+    - assets/images/avatar/avatar (34).jpg
+    - assets/images/avatar/avatar (35).jpg
+    - assets/images/avatar/avatar (36).jpg
+    - assets/images/avatar/avatar (37).jpg
+    - assets/images/avatar/avatar (38).jpg
+    - assets/images/avatar/avatar (39).jpg
+    - assets/images/avatar/avatar (40).jpg
+    - assets/images/avatar/avatar (41).jpg
+    - assets/images/avatar/avatar (42).jpg
+    - assets/images/avatar/avatar (43).jpg
+    - assets/images/avatar/avatar (44).jpg
+    - assets/images/avatar/avatar (45).jpg
+    - assets/images/avatar/avatar (46).jpg
+    - assets/images/avatar/avatar (47).jpg
+    - assets/images/avatar/avatar (48).jpg
+    - assets/images/avatar/avatar (49).jpg
+    - assets/images/avatar/avatar (50).jpg
+    - assets/images/avatar/avatar (51).jpg
+    - assets/images/avatar/avatar (52).jpg
+    - assets/images/avatar/avatar (53).jpg
+    - assets/images/avatar/avatar (54).jpg
+    - assets/images/avatar/avatar (55).jpg
+    - assets/images/avatar/avatar (56).jpg
+    - assets/images/avatar/avatar (57).jpg
+    - assets/images/avatar/avatar (58).jpg
+    - assets/images/avatar/avatar (59).jpg
+    - assets/images/avatar/avatar (60).jpg
+    - assets/images/avatar/avatar (61).jpg
+    - assets/images/avatar/avatar (62).jpg
+    - assets/images/avatar/avatar (63).jpg
+    - assets/images/avatar/avatar (64).jpg
+    - assets/images/avatar/avatar (65).jpg
+    - assets/images/avatar/avatar (66).jpg
+    - assets/images/avatar/avatar (67).jpg
+    - assets/images/avatar/avatar (68).jpg
+    - assets/images/avatar/avatar (69).jpg
+    - assets/images/avatar/avatar (70).jpg
+    - assets/images/avatar/avatar (71).jpg
+    - assets/images/avatar/avatar (72).jpg
+    - assets/images/avatar/avatar (73).jpg
+    - assets/images/avatar/avatar (74).jpg
+    - assets/html/mypass_first.html
+    - assets/html/mypass_second.html
+    - assets/myadd/
+

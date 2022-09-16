@@ -91,7 +91,7 @@ class ComMomBar extends StatelessWidget implements PreferredSizeWidget {
             elevation: 0.0,
             brightness: Brightness.light,
             leading: leadingW ?? leading(context),
-            centerTitle: false,
+            centerTitle: true,
             bottom: bottom != null ? bottom : null,
             actions: rightDMActions ?? [new Center()],
           );

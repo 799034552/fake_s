@@ -4,6 +4,8 @@ import 'package:wechat_flutter/pages/contacts/contacts_details_page.dart';
 import 'package:wechat_flutter/pages/contacts/group_list_page.dart';
 import 'package:wechat_flutter/pages/contacts/new_friend_page.dart';
 import 'package:wechat_flutter/pages/contacts/public_page.dart';
+import 'package:wechat_flutter/pages/contacts/hua_page.dart';
+import 'package:wechat_flutter/pages/contacts/mypass_page.dart';
 import 'package:flutter/material.dart';
 import 'package:wechat_flutter/tools/wechat_flutter.dart';
 
@@ -139,6 +141,7 @@ class ContactItemState extends State<ContactItem> {
           if (!isSelect) widget.cancel(widget.identifier);
           return;
         }
+        print(widget.title);
         if (widget.title == '新的朋友') {
           Get.to(new NewFriendPage());
         } else if (widget.title == '群聊') {
@@ -147,7 +150,13 @@ class ContactItemState extends State<ContactItem> {
           Get.to(new AllLabelPage());
         } else if (widget.title == '公众号') {
           Get.to(new PublicPage());
-        } else {
+        } else if (widget.title == '华南理工大学') {
+          Get.to(new HuaSelectPage());
+        }
+        else if (widget.title == 'My Pass 我的通行证') {
+          Get.to(new WebViewPage("", '投诉'));
+        }
+        else {
           Get.to(new ContactsDetailsPage(
               id: widget.identifier,
               avatar: widget.avatar,

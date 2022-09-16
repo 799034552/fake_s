@@ -12,9 +12,22 @@ import 'login_page.dart';
 class LoginBeginPage extends StatefulWidget {
   @override
   _LoginBeginPageState createState() => new _LoginBeginPageState();
+
+
 }
 
-class _LoginBeginPageState extends State<LoginBeginPage> {
+class _LoginBeginPageState extends State<LoginBeginPage> with WidgetsBindingObserver {
+
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((mag) {
+       print("登陆页面渲染完毕");
+       Get.to(ProviderConfig.getInstance().getLoginPage(new LoginPage()));
+    });
+  }
+
   Widget body(GlobalModel model) {
     var buttons = [
       new ComMomButton(
@@ -58,11 +71,6 @@ class _LoginBeginPageState extends State<LoginBeginPage> {
   }
 
   @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     final model = Provider.of<GlobalModel>(context);
 
@@ -74,6 +82,8 @@ class _LoginBeginPageState extends State<LoginBeginPage> {
       child: body(model),
     );
 
-    return new Scaffold(body: bodyMain);
+    return new Scaffold(
+      body: bodyMain,
+    );
   }
 }
